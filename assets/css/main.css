@@ -2878,12 +2878,25 @@ ul.posts article header > :last-child {
   text-align: right;
   width: 17em;
 }
+.post > header .headshot {
+  padding: 3.75em 3em 1.75em 3em;
+  border-right: solid 1px rgba(160, 160, 160, 0.3);
+  min-width: 17em;
+  text-align: left;
+  width: 17em;
+}
 
 .post > header .meta > * {
   margin: 0 0 1em 0;
 }
+.post > header .headshot > * {
+  margin: 0 0 1em 0;
+}
 
 .post > header .meta > :last-child {
+  margin-bottom: 0;
+}
+.post > header .headshot > :last-child {
   margin-bottom: 0;
 }
 
@@ -3012,6 +3025,16 @@ ul.posts article header > :last-child {
     padding: 0;
     text-align: left;
     width: 100%;
+  }
+  .post > header .headshot {
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 2em;
+    padding-top: 0;
+    padding: 0;
+    text-align: center;
+    height: 250px;
+    width: 250px;
   }
 
   .post > header .meta > * {
