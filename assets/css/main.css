@@ -3029,11 +3029,10 @@ ul.posts article header > :last-child {
   .post > header .headshot {
     margin-left:auto;
     margin-right:auto;
-    margin-bottom: 2em;
     padding-top: 0;
     padding: 0;
     text-align: center;
-    height: 250px;
+    height: 200px;
     width: 250px;
   }
 
@@ -3708,3 +3707,14 @@ body.is-menu-visible #menu {
     padding: 1.5em;
   }
 }
+
+@media only screen and (max-width: 980px) {
+  .image.fit img {
+    width: calc(125px + 20%);
+    margin: 0 auto;
+  }
+  .post > header .headshot {
+    border-right: none
+  }
+}
+
