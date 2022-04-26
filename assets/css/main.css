@@ -3721,6 +3721,18 @@ body.is-menu-visible #menu {
 
 .donate {
   position: relative;
-  left: 650px;
+  left: 625px;
+  top: -450px;
+}
+
+.donateInKind {
+  position: relative;
+  left: 1000px;
   top: -550px;
+}
+
+.checks {
+  position: relative;
+  left: 625px;
+  top: -500px;
 }
