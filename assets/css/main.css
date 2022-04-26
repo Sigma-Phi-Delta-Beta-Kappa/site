@@ -3727,8 +3727,8 @@ body.is-menu-visible #menu {
 
 .donateInKind {
   position: relative;
-  left: 1000px;
-  top: -550px;
+  left: 900px;
+  top: -560px;
 }
 
 .checks {
@@ -3739,6 +3739,6 @@ body.is-menu-visible #menu {
 
 .tracker {
   position: relative;
-  left: 1000px;
-  top: -500px;
+  left: 600px;
+  top: -730px;
 }
