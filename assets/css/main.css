@@ -3739,6 +3739,17 @@ body.is-menu-visible #menu {
 
 .tracker {
   position: relative;
-  left: 555px;
+  left: 500px;
   top: -733px;
+}
+
+/*
+.donate:hover {
+  background-color: rgb(241, 23, 19);
+}
+*/
+
+.info {
+  position: relative;
+  top: -500px;
 }
