@@ -3718,3 +3718,9 @@ body.is-menu-visible #menu {
   }
 }
 
+
+.donate {
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
