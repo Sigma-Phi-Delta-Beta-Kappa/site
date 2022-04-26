@@ -3736,3 +3736,9 @@ body.is-menu-visible #menu {
   left: 625px;
   top: -500px;
 }
+
+.tracker {
+  position: relative;
+  left: 1000px;
+  top: -500px;
+}
